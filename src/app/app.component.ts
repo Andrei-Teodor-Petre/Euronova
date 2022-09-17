@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.template.euronova.html',
+  templateUrl: './app.component.euronova.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {

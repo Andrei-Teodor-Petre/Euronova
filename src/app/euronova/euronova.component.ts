@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-euronova',
   templateUrl: './euronova.component.html',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EuronovaComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
+
+
   }
 
 }
