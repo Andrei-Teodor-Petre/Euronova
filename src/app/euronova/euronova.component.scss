@@ -16,6 +16,10 @@
 	margin: auto;
 }
 
+.clickable{
+	cursor: pointer;
+}
+
 .carousel_image{
 	display: block;
 	min-width: 15%;
@@ -46,15 +50,44 @@
 .text{
 	width: 65%;
 	float: left;
+	margin: 10px;
 }
 
 .contact{
-	width: 35%;
+	width: 33%;
 	float: left;
+	margin-top: 14px;
 }
 
+.social_links_icons{
+	margin: 15px;
+	align-self: center;
+	display: flex;
+}
 
+.social_link{
+	align-self: center;
+	width: 7%;
+	margin-left: auto;
+    margin-right: auto;
 
+}
+
+.pin{
+	width: 10%;
+	align-self: center;
+}
+.pin_geo{
+	width: 5%;
+	height: fit-content;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.contact_media{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .card {
 	/* Add shadows to create the "card" effect */
@@ -97,6 +130,36 @@
 	  flex: 25%;
 	  max-width: 50%;
 	}
+	.pin{
+		width: 5%;
+		align-self: center;
+	}
+
+	.social_link{
+		align-self: center;
+		width: 12%;
+		margin-left: auto;
+		margin-right: auto;
+	
+	}
+
+	.text{
+		width: 100%;
+		float: center;
+		margin: 10px;
+	}
+
+	.contact{
+		width: 100%;
+		float: center !important;
+	}
+
+	.pin_geo{
+		width: 3%;
+		height: fit-content;
+		margin-left: 8px;
+		margin-top: 6px;
+	}
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -104,6 +167,35 @@
 	.column {
 	  flex: 100%;
 	  max-width: 100%;
+	}
+	.pin{
+		width: 5%;
+		align-self: center;
+	}
+	.pin_geo{
+		width: 4%;
+		height: fit-content;
+		margin-left: 4px;
+		margin-top: 12px;
+	}
+
+	.social_link{
+		align-self: center;
+		width: 20%;
+		margin-left: auto;
+		margin-right: auto;
+	
+	}
+
+	.text{
+		width: 100%;
+		float: center;
+		margin: 10px;
+	}
+
+	.contact{
+		width: 100%;
+		float: center;
 	}
   }
 

@@ -38,4 +38,22 @@ export class EuronovaComponent implements OnInit {
 	},1000);
   }
 
+  public open_link(url: string){
+	window.open(url, '_blank').focus();
+  }
+
+
+
+  mailText:string = "mailto:printuri@gmail.com";
+  phoneText: string = "tel:+40722516603";
+
+  mailMe(){
+	 // add the links to body
+    window.location.href = this.mailText;
+  }
+
+  phoneMe(){
+	window.location.href = this.phoneText;
+  }
+
 }
