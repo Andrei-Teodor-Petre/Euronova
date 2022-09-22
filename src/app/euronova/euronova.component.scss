@@ -56,13 +56,15 @@
 .contact{
 	width: 33%;
 	float: left;
-	margin-top: 14px;
+	margin-top: auto;
 }
 
 .social_links_icons{
 	margin: 15px;
 	align-self: center;
 	display: flex;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .social_link{
@@ -125,7 +127,7 @@
 	padding: 0 4px;
   }
   /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1040px) {
 	.column {
 	  flex: 25%;
 	  max-width: 50%;
@@ -165,8 +167,9 @@
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
 	.column {
-	  flex: 100%;
+	  flex: 50%;
 	  max-width: 100%;
+	  padding: 2px;
 	}
 	.pin{
 		width: 5%;
