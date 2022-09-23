@@ -14,7 +14,7 @@ export class EuronovaComponent implements OnInit {
 
   ngOnInit(): void {
 	for (let i = 1; i < 7; i++){
-		this.images.push("../../assets/carousel_images/poza"+i+".png");
+		this.images.push("/assets/carousel_images/poza"+i+".png");
 	}
   }
 
