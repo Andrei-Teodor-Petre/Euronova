@@ -1,6 +1,7 @@
 
 .margins{
-	margin: auto;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 .grid{
 	box-sizing: border-box;
@@ -135,7 +136,7 @@
 }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1215px) {
+@media screen and (max-width: 1375px) {
 	.column {
 	  flex: 25%;
 	  max-width: 50%;
@@ -152,6 +153,10 @@
 		margin-left: auto;
 		margin-right: auto;
 	
+	}
+
+	.margins{
+		margin: auto;
 	}
 
 	.text{
@@ -182,6 +187,9 @@
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
+	.margins{
+		margin: auto;
+	}
 	.column {
 	  flex: 50%;
 	  max-width: 45%;
